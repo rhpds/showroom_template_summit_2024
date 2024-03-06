@@ -1,5 +1,5 @@
 name: modules
-title: Default Module Title
+title: Sample Module Title
 version: master
 nav:
   - modules/ROOT/nav.adoc
@@ -14,3 +14,8 @@ asciidoc:
     ssh_user: devops
     ssh_password: devops
     ssh_command: ssh devops@bastion.{guid}.example.opentlc.com
+    page-links:
+    - link: https://redhat.com
+      text: Red Hat
+    - link: https://www.redhat.com/en/summit
+      text: Summit

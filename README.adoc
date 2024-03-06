@@ -62,6 +62,24 @@ Many modern editors such as Visual Studio Code offer live Asciidoc Preview exten
     └── example_partial.adoc
 ----
 
+== Adding Additional Links
+
+You can add links to external content in the convenient "Links" drop-down on the upper-right of the Showroom Summit 2024 UI.
+
+../content/antora.yml
+[source,yaml]
+----
+asciidoc:
+  attributes:
+    page-links:
+    - link: https://redhat.com
+      text: Red Hat
+    - link: https://www.redhat.com/en/summit
+      text: Summit
+----
+
+image::ui-links.png[]
+
 == Dev Mode
 
 As a convenience to developers, the Dev Mode Extention (disabled by default) displays the asciidoc attributes you have to work with while writing your lab instructions.
