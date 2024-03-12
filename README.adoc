@@ -3,6 +3,7 @@
 This git repo template was created to make it easy for you to start developing your lab instructions.
 
 Features:
+
 . 0% cruft
 . Red Hat Summit 2024 UI bundle
 . Dev Mode extension that displays the asciidoc attributes you have to work with

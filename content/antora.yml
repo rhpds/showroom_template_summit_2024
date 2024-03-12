@@ -1,3 +1,4 @@
+---
 name: modules
 title: Sample Module Title
 version: master
@@ -15,7 +16,7 @@ asciidoc:
     ssh_password: devops
     ssh_command: ssh devops@bastion.{guid}.example.opentlc.com
     page-links:
-    - link: https://redhat.com
+    - url: https://redhat.com
       text: Red Hat
-    - link: https://www.redhat.com/en/summit
+    - url: https://www.redhat.com/en/summit
       text: Summit
