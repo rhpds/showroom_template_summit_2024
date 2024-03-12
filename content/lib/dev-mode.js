@@ -22,7 +22,7 @@ module.exports.register = function ({ config }) {
       })
     })
     const newPage = contentCatalog.addFile({
-      contents: Buffer.from('= Attributes Page\n\nTo disable Dev Mode (this page,) comment out the dev-mode.js extenion in the playbook (usually defalt-site.yml)\n\n' + fileContents),
+      contents: Buffer.from('= Attributes Page\n\nTo disable Dev Mode (this page) comment out the dev-mode.js extenion in the playbook (usually default-site.yml)\n\n' + fileContents),
       path: 'modules/ROOT/pages/attrs-page.adoc',
       src: {
         path: 'modules/ROOT/pages/attrs-page.adoc',
