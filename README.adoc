@@ -73,9 +73,9 @@ You can add links to external content in the convenient "Links" drop-down on the
 asciidoc:
   attributes:
     page-links:
-    - link: https://redhat.com
+    - url: https://redhat.com
       text: Red Hat
-    - link: https://www.redhat.com/en/summit
+    - url: https://www.redhat.com/en/summit
       text: Summit
 ----
 
@@ -85,7 +85,7 @@ image::ui-links.png[]
 
 As a convenience to developers, the Dev Mode Extention (disabled by default) displays the asciidoc attributes you have to work with while writing your lab instructions.
 
-. Enable Dev Mode by changing `enabled: true`
+. Disable/Enable Dev Mode by changing `enabled: true` or `enabled: false`
 +
 .default-site.yml
 [source,yaml]
